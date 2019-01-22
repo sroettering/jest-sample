@@ -20,6 +20,14 @@
     ],
     "types": [
       "jest"
-    ]
+    ],
+    "paths": {
+      "test-lib": [
+        "dist/test-lib"
+      ],
+      "test-lib/*": [
+        "dist/test-lib/*"
+      ]
+    }
   }
 }
